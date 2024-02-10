@@ -1,0 +1,77 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    width: 390px;
+    height: 590px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3a4452;
+    border-radius: 18px;
+    margin-top: 100px;
+    padding: 15px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+.equal {
+    color: #33ffd8 !important;
+    background-color: rgb(203, 141, 27) !important;
+}
+.operator {
+    color: #33ffd8 !important ;
+    font-size: 1.4rem !important;
+    font-weight: 400 !important;
+}
+
+.btn-row button{
+    padding: 13px;
+    margin: 12px;
+    border: transparent;
+    border-radius: 12px;
+    width: 65px;
+    height: 65px;
+    font-size: 1.3rem;
+    text-align: center;
+    color: white;
+    background-color: transparent;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+
+}
+
+
+
+.delete {
+    color: #33ffd8 !important;
+}
+
+.inputbox input {
+    padding: 10px;
+    background: transparent;
+    width: 340px;
+    border: none;
+    color: white;
+    font-size: 4.5rem;
+    height: 57px;
+    margin: 20px;
+    text-align: right;
+}
+
+::placeholder {
+    font-size: 4.5rem;
+    color: white;
+}
